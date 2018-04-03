@@ -13,4 +13,7 @@ public class EchoServer
             System.out.println(err);
 	}
 }
-  
+public void serve()
+ {
+ try
+   {
