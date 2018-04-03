@@ -27,3 +27,10 @@ public void serve()
     do
      {
       line = r.readLine();
+       if ( line != null )
+         w.println("Got: "+ line);
+     }
+    while ( !line.trim().equals("bye") );
+    client.close();
+   }
+}
