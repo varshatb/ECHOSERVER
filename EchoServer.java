@@ -23,3 +23,7 @@ public void serve()
     BufferedReader r = new BufferedReader(new InputStreamReader(client.getInputStream()));
     PrintWriter w = new PrintWriter(client.getOutputStream(), true);
     w.println("Welcome to the Java EchoServer.  Type 'bye' to close.");
+    String line;
+    do
+     {
+      line = r.readLine();
