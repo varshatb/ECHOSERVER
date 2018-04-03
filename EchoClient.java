@@ -20,3 +20,6 @@ public class EchoClient
 				w.println(line);
 			}
 			while ( !line.trim().equals("bye") );
+		}
+		catch (Exception err)
+		{
