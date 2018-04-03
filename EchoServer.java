@@ -17,3 +17,6 @@ public void serve()
  {
  try
    {
+    while (true)
+    {
+    Socket client = server.accept();
