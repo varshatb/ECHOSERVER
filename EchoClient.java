@@ -17,3 +17,6 @@ public class EchoClient
 				if ( line != null )
 					System.out.println(line);
 				line = con.readLine();
+				w.println(line);
+			}
+			while ( !line.trim().equals("bye") );
