@@ -10,3 +10,7 @@ public class EchoServer
            }
 	  catch (Exception err)
 	  {
+            System.out.println(err);
+	  }
+}
+  
