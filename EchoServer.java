@@ -6,3 +6,7 @@ public class EchoServer
          {
 	  try
 	  {
+            server = new ServerSocket(portnum);
+           }
+	  catch (Exception err)
+	  {
