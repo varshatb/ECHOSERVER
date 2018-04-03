@@ -24,4 +24,5 @@ public class EchoClient
 		catch (Exception err)
 		{
 		System.err.println(err);
+		}
 
